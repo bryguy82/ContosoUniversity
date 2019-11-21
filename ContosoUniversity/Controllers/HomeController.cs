@@ -33,7 +33,7 @@ namespace ContosoUniversity.Controllers
             return View();
         }
 
-        public async Task<ActionResult> About()
+        public async Task<IActionResult> About()
         {
             IQueryable<EnrollmentDateGroup> data =
             from student in _context.Students
