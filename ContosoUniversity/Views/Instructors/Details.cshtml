@@ -1,13 +1,13 @@
 ﻿@model ContosoUniversity.Models.Instructor
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Instructor Details";
 }
 
-<h1>Details</h1>
+<h1>@Html.DisplayFor(model => model.LastName), @Html.DisplayFor(model => model.FirstMidName)</h1>
 
 <div>
-    <h4>Instructor</h4>
+    <h4>Instructor Details</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">

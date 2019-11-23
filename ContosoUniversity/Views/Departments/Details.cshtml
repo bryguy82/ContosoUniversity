@@ -1,10 +1,12 @@
 ﻿@model ContosoUniversity.Models.Department
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Department Details";
 }
-<h2>Details</h2>
+
+<h1>@Html.DisplayFor(model => model.Name) Department Details</h1>
+
 <div>
-    <h4>Department</h4>
+
     <hr />
     <dl class="row">
         <dt class="col-sm-2">

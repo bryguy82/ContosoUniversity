@@ -1,0 +1,41 @@
+﻿
+body nav.bg-white,
+body footer {
+    background-color: #3D5020 !important;
+}
+
+html body {
+    background-color: #CFCEA7;
+}
+
+nav div.container a.navbar-brand,
+nav div.container a.nav-link,
+footer div.container {
+    color: #CFCEA7 !important;
+}
+
+div.jumbotron {
+    background-color: #98A74F;
+}
+
+div.jumbotron img {
+    width: 100%;
+}
+
+main a,
+footer a,
+main a:active {
+    color: #CFCEA7;
+}
+
+div.contact_page label {
+    font-size: 25px;
+}
+
+body {
+    font-family: 'Source Serif Pro', serif;
+}
+
+body h1 {
+    font-family: 'Graduate', cursive;
+}

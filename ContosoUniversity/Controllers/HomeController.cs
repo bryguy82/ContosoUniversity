@@ -46,7 +46,7 @@ namespace ContosoUniversity.Controllers
             return View(await data.AsNoTracking().ToListAsync());
         }
 
-        public IActionResult Privacy()
+        public IActionResult Contact()
         {
             return View();
         }
